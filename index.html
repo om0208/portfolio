@@ -1,280 +1,276 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>omkar portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-    <header class="header">
-        <a href="#" class="logo">omkar</span></a>
+    <title>Omkar U. Parmekar - Portfolio</title>
+    <meta name="description" content="Portfolio of Omkar U. Parmekar - Data Analyst & Cybersecurity Specialist">
 
-        <i class='bx bx-menu' id="menu-icon"></i>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#home" class="logo">Omkar.</a>
+
+        <div class="header-controls">
+            <i class='bx bx-moon theme-toggle' id="theme-toggle"></i>
+            <div class="menu-icon" id="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#education">Education</a>
             <a href="#skills">Skills</a>
-            <a href="#contact ">Contact</a>
-
-            <span class="active-nav"></span>
-           
-         </nav>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <section class="home show-animate" id="home">
+    <!-- Home Section -->
+    <section class="home" id="home">
         <div class="home-content">
-              <h1>Hi I am <span>Omkar Parmekar</span></h1>
-    <div class="text-animate">
-        <h3> Frontend Developer</h3>
+            <h3>Hello, It's Me</h3>
+            <h1>Omkar U. Parmekar</h1>
+            <h3>And I'm a <span class="typing-text">Data Analyst & Cyber Security Analyst</span></h3>
+            <p>Analytical and detail-oriented Information Technology graduate.</p>
 
-       
-    </div>
-            <p>Passionate about creating dynamic, responsive, 
-                and scalable web applications that elevate user engagement through clean, 
-                efficient front-end development.<p>
-                <div class="btn-box">
-                    <a href="omkar.docx" class="btn">RESUME</a>
-                    <a href="#contact" class="btn">LET'S TALK</a>
-                </div>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/" target="_blank" aria-label="LinkedIn"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/om0208" target="_blank" aria-label="GitHub"><i
+                        class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="resume-buttons">
+                <a href="Omkar_Data_Analyst_Resume.pdf" class="btn" download>Data Analyst Resume</a>
+                <a href="Omkar_Cybersecurity_Analyst_Resume.docx" class="btn" download>Cyber Security Resume</a>
+            </div>
         </div>
-
-        <div class="home-sci">
-            <a href="#"><i class='bx bxl-facebook-square'></i> </a>
-            <a href="https://www.instagram.com/i_am_om.02/?igsh=MXRnYm9qOXJjbnZmNw%3D%3D"><i class='bx bxl-instagram' ></i></a>
-            <a href="https://www.linkedin.com/in/omkar-parmekar-65302b283/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin'></i></a>
-            
-        </div>
-        <div class="home-imgHover">
-
+        <div class="home-img">
+            <!-- Using the newly generated placeholder -->
+            <img src="my photo.jpg" alt="Omkar Parmekar Avatar">
         </div>
     </section>
-<section class="about" id="about">
-    <h2 class="heading">About <span>me</span></h2>
-     <div class="about-img">
-        <img src="code.png" alt="">
-        <span class="circle-spin"></span>
-     </div>
-     <div class="about-content">
-        <h3>Frontend Developer</h3>
-        
-        <p>I am currently pursuing a Bachelor of Science in Information Technology (BSc IT), expected to graduate in 2025-26. With a strong academic foundation and hands-on experience in web development, data analysis, and video editing, I am eager to apply my skills to real-world projects.
-            I specialize in front-end and back-end web development, using technologies like HTML, CSS, and JavaScript. Additionally, I have proficiency in video editing with tools such as KineMaster, CapCut, Alight Motion, and Pixlab for creating high-quality content and designs. 
-            Driven by a passion for technology, I am committed to continuous learning and ready to contribute to innovative projects in the tech industry.</p>
-            <div class="btn-box btns">
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="my photo.jpg" alt="Omkar Parmekar">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Data Analyst & Cybersecurity Specialist</h3>
+            <p>I am a BSc Information Technology graduate with a 9.25 CGPA. I combine analytical problem-solving in
+                SQL-based data extraction and Python-driven analysis with a strong foundation in threat monitoring,
+                Linux environments, and security tools.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <!-- Category 1 -->
+            <div class="skills-box glass-card">
+                <i class='bx bx-bar-chart-alt-2'></i>
+                <h3>Data & Analytics</h3>
+                <div class="skills-grid">
+                    <span class="skill-badge">SQL</span>
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">Power BI</span>
+                    <span class="skill-badge">Advanced Excel</span>
+                    <span class="skill-badge">EDA</span>
+                </div>
             </div>
-     </div>
 
-</section>
-<section class="education" id="education">
-    <h2 class="heading">My <span>Journey</span></h2>
-
-
-
-    <div class="education-row">
-        <div class="education-column">
-            <h3 class="title">Education</h3>
-            
-            <div class="education-box">
-                <div class="education-content">
-                    <div class="content">
-                        <div class="year">
-                            <i class='bx bxs-calendar'></i>2025-2026 </div>
-                            <h3>BSC IT</h3>
-                            <P> 
-                                I am pursuing a Bachelor of Science in Information Technology (BSc IT),
-                                 with an expected graduation in 2025-26. This program is enhancing my technical skills 
-                                 and preparing me for a career in the field.
-                             </P>
-                    </div>
+            <!-- Category 2 -->
+            <div class="skills-box glass-card">
+                <i class='bx bx-shield-quarter'></i>
+                <h3>Cybersecurity</h3>
+                <div class="skills-grid">
+                    <span class="skill-badge">Linux</span>
+                    <span class="skill-badge">SIEM (Splunk)</span>
+                    <span class="skill-badge">OWASP Top 10</span>
                 </div>
+            </div>
 
-                <div class="education-content">
-                    <div class="content">
-                        <div class="year">
-                            <i class='bx bxs-calendar'></i>2022-2023 </div>
-                            <h3>HSC</h3>
-                            <P>I completed my Higher Secondary Certificate (HSC) from Sarawati Vidyamandir Kudase with 52.83%. This achievement has provided me with a solid academic foundation, preparing me for the next steps in my educational and professional journey.
-                            </P>
-                    </div>
+            <!-- Category 3 -->
+            <div class="skills-box glass-card">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <div class="skills-grid">
+                    <span class="skill-badge">React.js</span>
+                    <span class="skill-badge">Flask</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">Tailwind CSS</span>
                 </div>
-
-                <div class="education-content">
-                    <div class="content">
-                        <div class="year">
-                            <i class='bx bxs-calendar'></i>2020-2021 </div>
-                            <h3>SSC</h3>
-                            <P>I completed my Secondary School Certificate (SSC) from Sarawati Vidyamandir Kudase, building a solid academic foundation that prepares me for future educational and career opportunities. </P>
-                    </div>
-                </div>
-
             </div>
         </div>
+    </section>
 
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <h2 class="heading">My <span>Experience</span></h2>
 
-        <div class="education-column">
-            <h3 class="title">Experience</h3>
-            
-            <div class="education-box">
-                <div class="education-content">
-                    <div class="content">
-                        <div class="year">
-                            <i class='bx bxs-calendar'></i>2023-2024 </div>
-                            <h3>Web Development</h3>
-                            <P>Gained hands-on experience in front-end and back-end web development, 
-                                working with technologies such as HTML, CSS, JavaScript,
-                                 and popular frameworks to build functional and responsive websites.
-
-                            </P>
-                    </div>
+        <div class="timeline">
+            <!-- Experience 1 -->
+            <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Data Analyst Intern</h3>
+                    <h4>Imarticus Learning</h4>
+                    <p>Cleaned multi-dimensional datasets and built Power BI reports for decision support.</p>
                 </div>
+            </div>
 
-                <div class="education-content">
-                    <div class="content">
-                        <div class="year">
-                            <i class='bx bxs-calendar'></i>2023-2024 </div>
-                            <h3>Data Analysis</h3>
-                            <P>Acquired skills in data collection, processing, 
-                                and visualization using tools like Excel and PowerPoint, 
-                                enabling insights and informed decision-making from complex data sets.
-
-                            </P>
-                    </div>
+            <!-- Experience 2 -->
+            <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Technical Support Intern</h3>
+                    <h4>Humble Walking</h4>
+                    <p>Diagnosed operational issues and maintained internal support records.</p>
                 </div>
-
-                <div class="education-content">
-                    <div class="content">
-                        <div class="year">
-                            <i class='bx bxs-calendar'></i>2020-2021 </div>
-                            <h3>Video Editing</h3>
-                            <P>Developed proficiency in video editing using KineMaster, CapCut, Alight Motion, and Pixlab to create high-quality, visually compelling content and design logos and graphics.
-
-                                
-
-                            </P>
-                    </div>
-                </div>
-
             </div>
         </div>
-        
-    </div>
+    </section>
 
-</section>
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
 
-<section class="skills" id="skills">
-   <h2 class="heading">My <span>Skills</span></h2>
-
-<div class="skills-row">
-    <div class="skills-column">
-        <h3 class="title">Coding Skills</h3>
-
-        <div class="skills-box">
-            <div class="skills-content">
-                <div class="progress">
-                    <h3>HTML <span>90%</span></h3>
-                    <div class="bar"><span></span></div>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-box glass-card">
+                <div class="project-content">
+                    <i class='bx bx-laptop'></i>
+                    <h3>CyberVault</h3>
+                    <p>Hacker Simulation Challenge — Full-stack gamified cybersecurity platform (React.js, Flask,
+                        Python) simulating phishing and IAM breaches.</p>
                 </div>
+            </div>
 
-                <div class="progress">
-                    <h3>CSS <span>80%</span></h3>
-                    <div class="bar"><span></span></div>
+            <!-- Project 2 -->
+            <div class="project-box glass-card">
+                <div class="project-content">
+                    <i class='bx bx-buildings'></i>
+                    <h3>Hotel Reservation & Revenue Analysis</h3>
+                    <p>Analyzed 36,275 bookings using Power BI and SQL to evaluate cancellation patterns and develop
+                        dynamic pricing dashboards.</p>
                 </div>
+            </div>
 
-                <div class="progress">
-                    <h3>JavaScript <span>65%</span></h3>
-                    <div class="bar"><span></span></div>
+            <!-- Project 3 -->
+            <div class="project-box glass-card">
+                <div class="project-content">
+                    <i class='bx bx-cart'></i>
+                    <h3>E-Commerce Operations Analysis</h3>
+                    <p>Engineered complex SQL queries across a 4-table schema to optimize inventory and track
+                        operational performance.</p>
                 </div>
-
-                <div class="progress">
-                    <h3>Python <span>79%</span></h3>
-                    <div class="bar"><span></span></div>
-                </div>
-
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="skills-column">
-        <h3 class="title">professsional  Skills</h3>
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
 
-        <div class="skills-box">
-            <div class="skills-content">
-                <div class="progress">
-                    <h3>Technical Skills <span>50%</span></h3>
-                    <div class="bar"><span></span></div>
-                </div>
+        <div class="education-container">
+            <div class="education-box glass-card">
+                <i class='bx bxs-graduation'></i>
+                <h3>BSc Information Technology</h3>
+                <h4>2023 - 2026</h4>
+                <p>Graduated with an outstanding 9.25 CGPA, demonstrating strong foundational knowledge in IT systems
+                    and analytics.</p>
+            </div>
 
-                <div class="progress">
-                    <h3>Web Development <span>63%</span></h3>
-                    <div class="bar"><span></span></div>
-                </div>
+            <div class="education-box glass-card">
+                <i class='bx bx-book'></i>
+                <h3>HSC - Science</h3>
+                <h4>2023</h4>
+                <p>Completed Higher Secondary Certificate with a focus on core sciences and mathematics.</p>
+            </div>
 
-                <div class="progress">
-                    <h3>Problem Solving <span>71%</span></h3>
-                    <div class="bar"><span></span></div>
-                </div>
-
-                <div class="progress">
-                    <h3>Video Editing <span>85%</span></h3>
-                    <div class="bar"><span></span></div>
-                </div>
-
+            <div class="education-box glass-card">
+                <i class='bx bx-book-open'></i>
+                <h3>SSC - Maharashtra Board</h3>
+                <h4>2021</h4>
+                <p>Completed Secondary School Certificate, laying the groundwork for a career in technology.</p>
             </div>
         </div>
-    </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
 
-</div>
-</section>
-
-<section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me!</span></h2>
-
-    <form action="#"> 
-        <div class="input-box">
-            <div class="input-field">
-                <input type="text" placeholder="Full Name" required>
-                <span class="focus"></span>
-            </div> 
-            <div class="input-field">
-                <input type="text" placeholder="Email Address" required>
-                <span class="focus"></span>
+        <div class="contact-container">
+            <!-- Contact Info -->
+            <div class="contact-info glass-card">
+                <h3>Get In Touch</h3>
+                <div class="info-item">
+                    <i class='bx bx-envelope'></i>
+                    <p>omkarparmekar0218@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-phone'></i>
+                    <p>+91 9303079247</p>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-map'></i>
+                    <p>Mumbai, India</p>
+                </div>
             </div>
-        </div>
 
-        <div class="input-box">
-            <div class="input-field">
-                <input type="number" placeholder="Mobile Number" required>
-                <span class="focus"></span>
-            </div> 
-            <div class="input-field">
-                <input type="text" placeholder="Email Subject" required>
-                <span class="focus"></span>
-            </div>
+            <!-- Contact Form -->
+            <form action="javascript:void(0)" class="contact-form glass-card" id="contactForm">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <input type="text" placeholder="Email Subject" required>
+                </div>
+                <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
         </div>
-        <div class="textarea-field">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
-            <span class="focus"></span>
-        </div>
+    </section>
 
-        <div class="btn-box btns">
-            <button type="submit" class="btn">Submit</button>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Omkar U. Parmekar | All Rights Reserved.</p>
         </div>
-    </form>
-</section>
-<footer class="footer">
-    <div class="footer-text">
-        <p>Copyright &copy; 2024 by omkar | All Rights Reserved</p>
-    </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
 
-    <div class="footer-iconTop">
-        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
-    </div>
-</footer>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
